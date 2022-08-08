@@ -73,7 +73,6 @@ const Container = () => {
             <h1>Loading ...</h1>
         </div>
     );
-    console.log(url);
     return (
         <div className="container">
             {url.sort((a, b) => {
